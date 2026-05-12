@@ -1,0 +1,88 @@
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 1300px;
+
+  margin: 0 auto;
+  margin-top: -230px;
+}
+
+/* SVG MAP SIZE */
+svg {
+  width: 100%;
+  height: 850px;
+}
+
+/* HOVER CARD */
+.hover-card {
+  position: absolute;
+
+  top: 180px;
+  left: -350px;   /* move outside map */
+
+  z-index: 100;
+  width: 320px;
+}
+
+/* TITLE */
+.hover-title {
+  background: #0d7b91;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #ffffff;
+}
+
+/* CONTENT */
+.hover-content {
+  background: #ebb0b0;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+
+.hover-content h2 {
+  color: #001b4d;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hover-content p {
+  color: #001b4d;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  svg {
+    height: 500px;
+  }
+
+  .hover-card {
+    left: 10px;
+    top: 10px;
+    width: 220px;
+  }
+
+  .hover-title {
+    font-size: 18px;
+  }
+
+  .hover-content {
+    padding: 20px;
+  }
+
+  .hover-content h2 {
+    font-size: 16px;
+  }
+
+  .hover-content p {
+    font-size: 28px;
+  }
+}

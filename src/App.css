@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active,
+.show > .nav-btn.dropdown-toggle {
+  background: #4b4b4b !important;
+  color: white !important;
+  border: none !important;
+}
+
+.registration-btn:hover,
+.registration-btn:focus,
+.registration-btn:active,
+.show > .registration-btn.dropdown-toggle {
+  background: #4b4b4b !important;
+  color: white !important;
+  border: none !important;
+}
+
+.sidebar-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sidebar-title {
+  background: #007b8f;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-size: 24px;
+}
+
+.proceed-btn {
+  background: #84c2d8 !important;
+  color: white !important;
+  padding: 12px !important;
+  border-radius: 15px !important;
+  font-size: 20px !important;
+}
+
+.main-banner {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 450px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  color: white;
+  padding: 40px;
+}
+
+.map-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  height: 500px;
+}
+
+.india-map {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer-section {
+  background: #222;
+}
+
+@media (max-width: 992px) {
+  .main-banner,
+  .map-card {
+    height: auto;
+  }
+
+  .banner-overlay {
+    position: relative;
+  }
+}
